@@ -1,0 +1,90 @@
+.ir{direction:ltr;display:block;height:100%;overflow:hidden;position:relative;text-align:left;text-indent:100%;white-space:nowrap;width:100%}
+.hidden{display:none}
+.visuallyhidden{left:-9999px;position:absolute !important;top:-9999px}
+.invisible{visibility:hidden}
+.noselect{-o-user-select:none;-ms-user-select:none;-moz-user-select:none;-webkit-user-select:none;-moz-user-select:none;-webkit-user-select:none;user-select:none;-khtml-user-select:none}
+.clearfix,#cuerpo > article{zoom:1;}
+.clearfix:after,#cuerpo > article:after{clear:both;content:"\0020";display:block;height:0;visibility:hidden}
+.clear{display:block;clear:both;zoom:1}
+.nomargin{margin:0 !important}
+::selection{background:#de4d2c;color:#fff}
+*{margin:0;padding:0}
+body{font-family:'Open Sans',sans-serif;font-size:16px;color:#000;background:#fff}
+h1{border-bottom:1px solid #b3500d;font-size:28px;line-height:80px;text-transform:uppercase;}
+h1 span{text-transform:none;font-weight:400}
+header{background:#000;color:#fff;}
+header .datos{width:370px;padding-top:77px;}
+header .datos h2{font-size:40px;font-weight:700;text-transform:uppercase}
+header .datos h3{font-size:18px;font-weight:300px;margin-bottom:20px;margin-top:-10px}
+header .datos span{display:block}
+header .datos p{font-size:14px;margin-bottom:40px}
+header .datos #insc{background:#de4d2c;border-bottom:7px solid #a7371d;color:#fff;display:block;font-size:30px;font-weight:600;height:66px;line-height:30px;text-align:center;text-decoration:none;text-shadow:2px 2px 0 #7b2e1d;text-transform:uppercase;width:241px;}
+header .datos #insc span{font-size:23px;font-weight:200;text-shadow:none;text-transform:none}
+header .datos #ticket{text-align:center;background:#de4d2c;width:241px;height:66px;margin-bottom:10px;}
+header .datos #ticket h5{font-size:35px;color:#89301c;line-height:30px;padding-top:5px;}
+header .datos #ticket h5 span{font-size:17px;font-weight:200}
+header .content{background:url("../images/richard-stallman-background.jpg") no-repeat right bottom;min-height:550px;padding-bottom:20px;max-width:1200px}
+header .texto{max-width:864px;margin:0 auto}
+footer{border-top:105px solid #000;height:105px}
+#biografia .text{max-width:468px;float:left}
+#biografia .imagen{float:right;zoom:1;margin-right:100px;}
+#biografia .imagen img{margin-top:90px}
+#lugar #mapa{width:515px;height:351px;float:left;border:10px solid #dbdbdb;-o-border-radius:5px;-ms-border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px}
+#lugar .text{max-width:229px;float:right;margin-right:40px}
+#cronograma .text{max-width:570px;float:left}
+#organizadores .sponsors{float:left;padding-top:40px;}
+#organizadores .sponsors img:nth-child(2){margin-left:20px;vertical-align:top}
+#organizadores .text{max-width:354px;float:right}
+#cuerpo > article .content hr{background:#d9d9d9;border-width:1px;float:left;width:100%;margin-top:35px}
+#cuerpo > article .content a{float:right;display:block;font-size:12px;color:#eb3b14;background:#fff url("../images/ancla.jpg") no-repeat right center;padding:0 25px;text-decoration:none;margin-top:-10px}
+#cuerpo li{color:#4e4d4d;font-size:13px;list-style:none;line-height:24px}
+#cuerpo ul{padding-left:50px;margin-bottom:20px}
+#cuerpo > article h2,#cuerpo > article h3{font-weight:200;font-size:25px;padding:20px 0}
+#cuerpo p{font-size:13px;line-height:24px;color:#4e4d4d;}
+#cuerpo p:nth-of-type(1){margin-bottom:20px}
+#formulario{width:358px;background:#fff;-o-border-radius:5px;-ms-border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px;margin:20px 0;padding-bottom:20px;display:none;}
+#formulario div{color:#888;margin-bottom:20px;}
+#formulario div > span{margin:0 20px}
+#formulario label{color:#888;display:block;font-size:18px;margin-left:20px;margin-top:15px}
+#formulario hr{border-width:1px;border-color:#ededed}
+#formulario .input{background:#f4f4f4;border:1px solid #cecece;-o-border-radius:5px;-ms-border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px;display:block;height:35px;line-height:35px;margin:15px auto;outline:0;width:299px;padding-left:10px;}
+#formulario .input:focus{background:#fff}
+#formulario .titu{background:#8c8c8c;color:#fff;display:block;font-size:31px;height:55px;line-height:55px;margin:0;text-align:center;text-shadow:0 3px 0 #672828;text-transform:uppercase;width:100%}
+#formulario .submit{background:#de4d2c;border:none;border-bottom:5px solid #a7371d;color:#fff;display:block;font-size:23px;height:75px;line-height:75px;margin:0 auto;padding:0 20px;text-shadow:0 3px 0 #672828;text-transform:uppercase;cursor:pointer;}
+#formulario .submit:active{transfom:scale(.9)}
+#aviso{max-width:470px;margin-top:50px;display:none;}
+#aviso h2{text-transform:uppercase;line-height:65px}
+#aviso p{font-size:14px}
+#menu{background:#de4d2c;text-transform:uppercase;font-size:0;}
+#menu li{display:inline-block;zoom:1;*display:inline;list-style:none;text-align:center;vertical-align:top;width:25%;}
+#menu li:nth-child(1) a{background:url("../images/biografia.png") no-repeat center 30px}
+#menu li:nth-child(2) a{background:url("../images/lugar.png") no-repeat center 30px}
+#menu li:nth-child(3) a{background:url("../images/calendario.png") no-repeat center 30px}
+#menu li:nth-child(4) a{background:url("../images/sponsors.png") no-repeat center 30px}
+#menu li a{color:#89301c;font-size:20px;font-weight:200;padding-top:106px;padding-bottom:20px;display:block;text-decoration:none;-o-transition:.2s;-ms-transition:.2s;-moz-transition:.2s;-webkit-transition:.2s;transition:.2s;}
+#menu li a:hover{background-position-y:40px;background-color:rgba(0,0,0,0.10);color:#fff;text-shadow:0 0 5px #fff}
+.content{max-width:872px;margin:0 auto}
+.fixed{position:fixed;top:0;width:100%;z-index:2;-o-box-shadow:0 4px 9px rgba(0,0,0,0.40);-ms-box-shadow:0 4px 9px rgba(0,0,0,0.40);-moz-box-shadow:0 4px 9px rgba(0,0,0,0.40);-webkit-box-shadow:0 4px 9px rgba(0,0,0,0.40);box-shadow:0 4px 9px rgba(0,0,0,0.40);-webkit-background-clip:padding-box}
+.patron-naranja-top{background:url("../images/triangulito.png");height:20px;margin:0 auto;width:865px;margin-top:-20px}
+.patron-naranja-bottom{background:url("../images/triangulo_volteado.jpg");height:20px;margin:0 auto;width:865px}
+.patron-negro{background:url("../images/triangulo_negro.jpg");height:20px;margin:20px auto 0;width:865px}
+@media screen and (max-width:1000px){h1{width:95%;margin:0 auto}
+header .content{background-position-x:center;margin:0}
+header .datos{margin-left:30px}
+footer{height:0}
+#cuerpo ul{padding-left:20px}
+#lugar #mapa{width:100% !important;margin:0 auto;border:none}
+#wrapper{width:100%;overflow-x:hidden;min-width:320px}
+.fixed{position:static}
+.content{width:auto;margin:0 10px}
+.imagen,.sponsors{display:none}
+.patron-negro,.patron-naranja-bottom,.patron-naranja-top{width:auto}
+.text{max-width:100% !important;float:left !important}
+}@media screen and (max-width:768px){#menu li{width:100%;}
+#menu li a{background:none !important;border-bottom:1px solid #a7371d;border-top:1px solid #a7371d;color:#fff;font-size:20px;line-height:50px;padding:0}
+.patron-negro,.patron-naranja-bottom,.patron-naranja-top{display:none}
+}@media screen and (max-width:500px){h1{line-height:30px}
+header .datos{width:auto;padding-top:30px;}
+header .datos p{margin-top:170px;margin-right:10px;text-align:right;text-shadow:1px 1px 0 #000}
+header .datos #ticket{display:none}
+}

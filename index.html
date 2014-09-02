@@ -1,0 +1,157 @@
+<html lang="es">
+<head>
+	<title>Richard Stallman en Tacna</title>
+	<meta charset="utf-8"/>
+	<link rel="shortcut icon" href="favicon.ico" />
+	<meta name="viewport" content="width = device-width , initial-scale=1 ,maximum-scale=1 "/>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,800,700,300' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/stallman.css"/>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script src="http://maps.google.com/maps/api/js?sensor=true"></script>
+	<script src="js/gmaps.js"></script>
+	<script src="js/likeaboss.js"></script>
+	<script src="js/jquery.scrollTo-1.4.2-min.js"></script>
+	<script src="js/jquery.localscroll-1.2.7-min.js"></script>
+	
+	<!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<script src="js/selectivizr-min.js"></script>
+    <noscript>
+      <link rel="stylesheet" href="[fallback css]">
+    </noscript><![endif]-->
+    <script>
+    	$(function(){
+    		$('#insc').click(function(){
+    			$('.datos').slideUp();
+    			$('#formulario ,#aviso').slideDown();
+    		});
+    	})
+    </script>
+</head>
+<body>
+	<div id="wrapper">
+		<header id="header">
+			<div class="content">
+				<article class="texto">
+					<h1>Richard Stallman <span>en Tacna</span></h1>
+					<div class="datos">
+						
+						<h2>Agosto 13</h2>
+						<h3>Jorge Basadre Grohman <span>Centro Cultural</span></h3>
+						<p><em>"La libertad no es poder elegir entre unas pocas opciones impuestas, sino tener el control de tu propia vida. La libertad no es elegir quien será tu amo, es no tener amo.”</em></p>
+						<div id="ticket">
+							<h5>300<span>entradas disponibles</span></h5>
+						</div>
+						<a href="#formulario" id="insc">inscríbete<span>es libre!</span></a>
+						
+					</div>
+					<div id="aviso">
+						<h2>Atención</h2>
+						<p><em>Para el Ingreso al Evento tendrá que presentar el ticket que será generado
+una vez usted haya llenado este formulario</em></p>
+					</div>
+					<form id="formulario">
+						<label class="titu">Inscribete</label>
+						<label>Nombre</label>
+						<input class="input" type="text" required name="nombre"/>
+						<hr/>
+						<label>Apellidos</label>
+						<input class="input" type="text" requiered name="apellidos"/>
+						<hr/>
+						<label>DNI</label>
+						<input class="input" type="number" required name="dni"/>
+						<hr/>
+						<label>Email</label>
+						<input class="input" type="email" required name="email"/>
+						<hr/>
+						<div>
+							<label>Certificado</label>
+							<span>si</span><input type="radio" name="certificado" value="certificado" > 
+							<span>no</span><input type="radio" name="certificado" value="no-certificado" checked>
+						</div>
+						<input class="submit" type="submit" value="generar ticket"/>
+						
+					</form>
+				</article>
+				
+			</div>
+			<div class="patron-naranja-top"></div>
+		</header>
+		<nav id="menu">
+			<ul class="content">
+				<li><a href="#biografia">Biografía Stallman</a></li>
+				<li><a href="#lugar">Lugar del Evento</a></li>
+				<li><a href="#cronograma">Cronograma</a></li>
+				<li><a href="#organizadores">Organizadores</a></li>
+			</ul>
+		</nav>
+		<div class="patron-naranja-bottom"></div>
+		<section id="cuerpo">
+			<article id="biografia">
+				<div class="content">
+					<div class="text">
+						<h2>Acerca de Richard Stallman</h2>
+						<p>Richard Stallman es uno de los mayores gurúes de la informática. Es, también, un “Loco”. En su opinión, los programas -todos los programas de computadora- deben proveer al usuario no solamente el código binario -eso que sólo la computadora entiende y puede ejecutar-, sino también el código fuente.</p>
+						<p>Sus mayores logros como programador incluyen el editor de texto Emacs, el compilador GCC, y el depurador GDB, bajo la rúbrica del Proyecto GNU. Pero su influencia es mayor por el establecimiento de un marco de referencia moral, político y legal para el movimiento del software libre, como una alternativa al desarrollo y distribución del software no libre o privativo.</p>
+					</div>
+					<div class="imagen">
+						<img src="images/richard-stallman.jpg" alt="Richard Stallman"/>
+					</div>
+					<hr/><a href="#header">Regresar arriba</a>
+				</div>	
+			</article>
+			<article id="lugar">
+				<div class="content">
+					<div id="mapa">
+					</div>
+					<div class="text">
+						<h3>Lugar del Evento</h3>
+						<p>El Evento se Desarrolllará en el Centro Cultural Jorge Basadre Grohmann Ubicado mas abajo de la Catedral</p>
+					</div>
+					<hr/><a href="#header">Regresar arriba</a>
+				</div>
+			</article>
+			<article id="cronograma">
+				<div class="content">
+					<h3>Cronograma del Evento</h3>
+					<div class="text">
+						<p>El Evento se realizará el Día Lunes 13 de Agosto a partir de las 17:00 Horas, donde el 
+						maestro Richard Stallman expondrá acerca de:</p>
+						<ul>
+							<li>- Políticas Públicas Tecnológicas</li>
+							<li>- Ciberespacio y Libertad</li>
+							<li>- Cultura Digital</li>
+							<li>- Productividad Tecnológica</li>
+						</ul>
+						<p>Solo se podrá ingresar al Evento Previo Registro en esta página, durante el proceso
+						del Registro, el sistema creará un pdf del ticket, el cual deberá usted imprimir para 
+						presentarlo el día del evento, para que pueda engresar al mismo.</p>
+						
+					</div>
+					<hr/><a href="#header">Regresar arriba</a>
+				</div>
+			</article>
+			<article id="organizadores">
+				<div class="content">
+					<div class="sponsors">
+						<img src="images/eureka.jpg" alt="Asociacion educativa Eureka" />
+						<img src="images/bamboolabs.jpg" alt="Bammbo Labs"/> 
+					</div>
+					<div class="text">
+						<h3>Organizadores</h3>
+						<p>Este Evento lllega Gracias al Esfuerzo Conjunto
+						de las Siguientes Empresas que en su afán por
+						contribuir con la Educación y el Fomento de Eventos
+						Académicos aportan con entusiasmo para concretizar
+						este tipo de Eventos.</p>	
+					</div>
+					<hr/><a href="#header">Regresar arriba</a>
+				</div>
+			</article>
+			<div class="patron-negro"></div>
+		</section>
+		<footer>
+		</footer>
+	</div>
+</body>
+</html>
